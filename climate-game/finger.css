@@ -1,0 +1,63 @@
+/**
+ * Flip them the bird!
+ */
+html, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(66, 66, 255);
+  overflow: hidden;
+  cursor: url(images/bob.png), auto;
+
+}
+.micro {
+
+    position: absolute;
+    top: 2px;
+    left:2px;
+    width: 40px;
+    height: 40px;
+    background: url('images/micro_0.png');
+       background-repeat: no-repeat;
+       opacity: 0.8;
+}
+.ooo{top:50px;
+  height: 100%;
+  width:100%;
+  object-fit: contain;
+}
+.hand {
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  position: absolute;
+
+  height: 789px;
+  width: 590px;
+  left: 52%;
+  border: white solid 10px;
+  top: 70%;
+  background-image: url("mach.png");
+}
+
+@media (max-width: 600px) {
+  .hand {
+    -webkit-transform: translate3d(-50%, -50%, 0) scale(0.6);
+    -moz-transform: translate3d(-50%, -50%, 0) scale(0.6);
+    -ms-transform: translate3d(-50%, -50%, 0) scale(0.6);
+    -o-transform: translate3d(-50%, -50%, 0) scale(0.6);
+    transform: translate3d(-50%, -50%, 0) scale(0.6);
+  }
+}
+.text{
+  width:100%;
+  height:100%;
+  background-image: url("text2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}

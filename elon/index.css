@@ -1,0 +1,46 @@
+html
+body {
+
+}
+
+* {
+    margin: 0;
+}
+
+body {position: fixed;
+    background-color: white;
+    color: white;
+    background-image: url(images/bacg.png)  ;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+  background-position: center;
+}
+.reye{position: absolute;
+  width: 166px;
+  height: 185px;
+background-image: url(images/reye.png)  ;
+}
+.leye{position: absolute;
+  width: 154px;
+  height: 149px;
+background-image: url(images/leye.png)  ;
+}
+
+.nose{position: absolute;
+  width: 167px;
+  height: 137px;
+background-image: url(images/nose.png)  ;
+}
+.mouth{position: absolute;
+  width: 215px;
+  height: 146px;
+background-image: url(images/mouth.png)  ;
+}
+.jesus{
+  width: 2000px;
+  height: 1200px;
+  /*  background-image: url(images/jesus.jpg)  ;*/
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+  background-position: center;
+}
