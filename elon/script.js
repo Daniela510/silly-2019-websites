@@ -65,7 +65,7 @@ $("body").on("keydown", function(e) {
   });
   $("body").on("keydown", function(e) {
     if (e.keyCode == 74) {
-      $("body").css("background-image", "url(images/jesus.png)");
+      $("body").css("background-image", "url(images/evil.jpg)");
     $("body").css("background-color", "black");
       $(".leye").css("width","0px");
       $(".reye").css("width","0px");
